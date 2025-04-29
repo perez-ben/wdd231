@@ -113,7 +113,7 @@ a:hover {
 /* Global navbar styles */
 
 .global-header {
-  background-color: var(--bs-black)
+  background-color: var(--bs-black);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -209,6 +209,35 @@ a:hover {
 .skip-links a:focus {
   top: 2px;
   z-index: 9999;
+}
+
+/* park nav styles */
+
+.park-nav > ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: var(--bs-black);
+  font-size: 0.8rem;
+}
+
+.park-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8em 2em;
+}
+
+.park-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.park-nav svg {
+  width: 24px;
+  height: 24px;
 }
 
 /* Title and logo styling */
