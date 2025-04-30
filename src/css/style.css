@@ -211,6 +211,9 @@ a:hover {
   z-index: 9999;
 }
 
+.disclaimer {
+  padding: 0 1em;
+}
 /* park nav styles */
 
 .park-nav > ul {
