@@ -28,7 +28,7 @@ function getVoicePhone(numbers) {
   
 export function footerTemplate(info) {
   const mailing = getMailingAddress(info.addresses);
-  const voice = getVoicePhone(info.contacts.phoneNumber);
+  const voice = getVoicePhone(info.contacts.phoneNumbers);
   
   return `<section class="contact">
     <h3>Contact Info</h3>
