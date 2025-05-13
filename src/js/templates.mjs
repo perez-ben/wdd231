@@ -22,7 +22,7 @@ function getMailingAddress(addresses) {
 }
   
 function getVoicePhone(numbers) {
-  const mailing = addresses.find((number) => number.type === "Voice");
+  const voice = numbers.find((number) => number.type === "Voice");
   return phoneNumber;
 }
   
