@@ -23,7 +23,7 @@ function getMailingAddress(addresses) {
   
 function getVoicePhone(numbers) {
   const voice = numbers.find((number) => number.type === "Voice");
-  return phoneNumber;
+  return voice.phoneNumber;
 }
   
 export function footerTemplate(info) {
