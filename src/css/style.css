@@ -272,7 +272,7 @@ a:hover {
 
 .intro > h1 {
   font-family: var(--bs-font-serif);
-  font-size: 2em;
+  font-size: 1em;
   font-weight: normal;
 }
 
@@ -286,13 +286,14 @@ a:hover {
   flex: 1;
 }
 
-@media screen and (min-width: 630px) {
+/* @media screen and (min-width: 630px) {
   .info {
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
   }
 }
+*/
 
 /* Media card Style */
 
