@@ -181,7 +181,7 @@ a:hover {
 }
 
 .hero-banner_title {
-  font-size: 1.8em;
+  font-size: 2.5em;
 }
 
 .hero-banner_subtitle {
@@ -272,7 +272,7 @@ a:hover {
 
 .intro > h1 {
   font-family: var(--bs-font-serif);
-  font-size: 1em;
+  font-size: 2em;
   font-weight: normal;
 }
 
